@@ -1,0 +1,15 @@
+[project]
+name = "FastAPI-WebSocket"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "rishabjn10", email = "rishabjn10@gmail.com"},
+]
+dependencies = ["fastapi>=0.115.11", "uvicorn[standard]>=0.34.0", "websockets>=15.0.1", "wsproto>=1.2.0", "google-cloud-speech>=2.31.0", "google-cloud-texttospeech>=2.25.0", "janus>=2.0.0", "gTTS>=2.5.4", "pydub>=0.25.1", "openai>=1.65.4", "groq>=0.18.0", "python-dotenv>=1.0.1"]
+requires-python = "==3.9.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
